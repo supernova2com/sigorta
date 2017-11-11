@@ -1,0 +1,75 @@
+﻿IdentityNumber1birlikte = DamageInfoServiceHelper_erisim.kimlikplakabirlikte(Info, "IdentityNo1", Info.IdentityNumber1, araliklar)
+        getdamagelog = getdamagelog + IdentityNumber1birlikte.logx
+        If IdentityNumber1birlikte.bakildimi = "Evet" Then
+            If IdentityNumber1birlikte.hasaroran >= donecekdamage_1_icin.DamageRate And IdentityNumber1birlikte.simdikiyilhasarvarmi = "Evet" Then
+                getdamagelog = getdamagelog + "Kimlik ve plakaya birlikte bakıldığında bulunan " + _
+                " hasar zammı değeri şu ana kadar hesaplanan hasar zammı değerinden büyük. " + _
+                " Bu sebepten IdentityNumber1 için hasar zammını " + CStr(IdentityNumber1birlikte.hasaroran) + " çıkartıyorum.--"
+                donecekdamage_1_icin.DamageRate = IdentityNumber1birlikte.hasaroran
+                donecekdamage_1_icin.DamagelessRate = IdentityNumber1birlikte.hasarsizlikoran
+            End If
+        End If
+
+        IdentityNumber2birlikte = DamageInfoServiceHelper_erisim.kimlikplakabirlikte(Info, "IdentityNo2", Info.IdentityNumber2, araliklar)
+        getdamagelog = getdamagelog + IdentityNumber2birlikte.logx
+        If IdentityNumber2birlikte.bakildimi = "Evet" Then
+            If IdentityNumber2birlikte.hasaroran >= donecekdamage_2_icin.DamageRate And IdentityNumber2birlikte.simdikiyilhasarvarmi = "Evet" Then
+                getdamagelog = getdamagelog + "Kimlik ve plakaya birlikte bakıldığında bulunan " + _
+                " hasar zammı değeri şu ana kadar hesaplanan hasar zammı değerinden büyük. " + _
+                " Bu sebepten IdentityNumber2 için hasar zammını " + CStr(IdentityNumber2birlikte.hasaroran) + " çıkartıyorum.--"
+                donecekdamage_2_icin.DamageRate = IdentityNumber2birlikte.hasaroran
+                donecekdamage_2_icin.DamagelessRate = IdentityNumber2birlikte.hasarsizlikoran
+            End If
+        End If
+
+        IdentityNumber3birlikte = DamageInfoServiceHelper_erisim.kimlikplakabirlikte(Info, "IdentityNo3", Info.IdentityNumber3, araliklar)
+        getdamagelog = getdamagelog + IdentityNumber3birlikte.logx
+        If IdentityNumber3birlikte.bakildimi = "Evet" Then
+            If IdentityNumber3birlikte.hasaroran >= donecekdamage_3_icin.DamageRate And IdentityNumber3birlikte.simdikiyilhasarvarmi = "Evet" Then
+                getdamagelog = getdamagelog + "Kimlik ve plakaya birlikte bakıldığında bulunan " + _
+                " hasar zammı değeri şu ana kadar hesaplanan hasar zammı değerinden büyük. " + _
+                " Bu sebepten IdentityNumber3 için hasar zammını " + CStr(IdentityNumber3birlikte.hasaroran) + " çıkartıyorum.--"
+                donecekdamage_3_icin.DamageRate = IdentityNumber3birlikte.hasaroran
+                donecekdamage_3_icin.DamagelessRate = IdentityNumber3birlikte.hasarsizlikoran
+            End If
+        End If
+
+        IdentityNumber4birlikte = DamageInfoServiceHelper_erisim.kimlikplakabirlikte(Info, "IdentityNo4", Info.IdentityNumber4, araliklar)
+        getdamagelog = getdamagelog + IdentityNumber4birlikte.logx
+        If IdentityNumber4birlikte.bakildimi = "Evet" Then
+            If IdentityNumber4birlikte.hasaroran >= donecekdamage_4_icin.DamageRate And IdentityNumber4birlikte.simdikiyilhasarvarmi = "Evet" Then
+                getdamagelog = getdamagelog + "Kimlik ve plakaya birlikte bakıldığında bulunan " + _
+                " hasar zammı değeri şu ana kadar hesaplanan hasar zammı değerinden büyük. " + _
+                " Bu sebepten IdentityNumber4 için hasar zammını " + CStr(IdentityNumber4birlikte.hasaroran) + " çıkartıyorum.--"
+                donecekdamage_4_icin.DamageRate = IdentityNumber4birlikte.hasaroran
+                donecekdamage_4_icin.DamagelessRate = IdentityNumber4birlikte.hasarsizlikoran
+            End If
+        End If
+
+        IdentityNumber5birlikte = DamageInfoServiceHelper_erisim.kimlikplakabirlikte(Info, "IdentityNo5", Info.IdentityNumber5, araliklar)
+        getdamagelog = getdamagelog + IdentityNumber5birlikte.logx
+        If IdentityNumber5birlikte.bakildimi = "Evet" Then
+            If IdentityNumber5birlikte.hasaroran >= donecekdamage_5_icin.DamageRate And IdentityNumber5birlikte.simdikiyilhasarvarmi = "Evet" Then
+                getdamagelog = getdamagelog + "Kimlik ve plakaya birlikte bakıldığında bulunan " + _
+                " hasar zammı değeri şu ana kadar hesaplanan hasar zammı değerinden büyük. " + _
+                " Bu sebepten IdentityNumber5 için hasar zammını " + CStr(IdentityNumber5birlikte.hasaroran) + " çıkartıyorum.--"
+                donecekdamage_5_icin.DamageRate = IdentityNumber5birlikte.hasaroran
+                donecekdamage_5_icin.DamagelessRate = IdentityNumber5birlikte.hasarsizlikoran
+            End If
+        End If
+
+        IdentityNumber6birlikte = DamageInfoServiceHelper_erisim.kimlikplakabirlikte(Info, "IdentityNo6", Info.IdentityNumber6, araliklar)
+        getdamagelog = getdamagelog + IdentityNumber6birlikte.logx
+        If IdentityNumber6birlikte.bakildimi = "Evet" Then
+            If IdentityNumber6birlikte.hasaroran >= donecekdamage_6_icin.DamageRate And IdentityNumber6birlikte.simdikiyilhasarvarmi = "Evet" Then
+                getdamagelog = getdamagelog + "Kimlik ve plakaya birlikte bakıldığında bulunan " + _
+                " hasar zammı değeri şu ana kadar hesaplanan hasar zammı değerinden büyük. " + _
+                " Bu sebepten IdentityNumber6 için hasar zammını " + CStr(IdentityNumber6birlikte.hasaroran) + " çıkartıyorum.--"
+                donecekdamage_6_icin.DamageRate = IdentityNumber6birlikte.hasaroran
+                donecekdamage_6_icin.DamagelessRate = IdentityNumber6birlikte.hasarsizlikoran
+            End If
+        End If
+
+
+
+

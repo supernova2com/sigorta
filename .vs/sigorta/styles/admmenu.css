@@ -1,0 +1,100 @@
+
+div#admmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#admmenutabs {
+background: #628fc1;
+width:100%;
+font-size:1em;
+}
+
+div#admmenutabs ul{
+padding: 0;
+margin: 0;
+overflow: hidden;
+float:left;
+}
+
+div#admmenutabs li{
+margin: 0;
+display:block;
+float:left;
+margin-left:-2px;
+border-left: solid 1px #4572a5;
+
+}
+
+div#admmenutabs li a:link,
+div#admmenutabs li a:visited {
+display:block;
+float:left;
+text-decoration: none;
+padding: 0 12px 0 10px;
+color: #fff;
+border-left: solid 1px #78a3d4;
+}
+
+div#admmenutabs li a:hover,
+div#admmenutabs li a:focus,
+div#admmenutabs li a.current {
+background: #fff;
+color: #333;
+border-left: solid 1px #fff;
+}
+div#admmenutabs li a span {
+cursor:pointer;
+display:block;
+float:left;
+padding: 7px 0 8px 0;
+}
+div#admmenutabs li a img {
+float:left;
+margin: 6px 10px 0 0;
+}
+
+
+div#admmenutabcontents {
+clear: left;
+background: #fff 0 bottom repeat-x;
+border-bottom:solid 1px #aaa;
+font-size:0.9em;
+}
+
+div#admmenutabcontents ul {
+padding: 11px 0 12px 0;
+margin: 0;
+}
+
+div#admmenutabcontents ul li{
+display: inline;
+margin: 0;
+margin-left:-1px;
+}
+
+div#admmenutabcontents li a:link,
+div#admmenutabcontents li a:visited {
+text-decoration: none;
+padding: 0 7px 0 8px;
+color: #333;
+border-left: solid 1px #ccc;
+}
+
+div#admmenutabcontents li a:hover,
+div#admmenutabcontents li a:focus {
+color: #333;
+text-decoration: underline;
+}
+
+div#admmenutabcontents li a.selected {
+font-weight: bold;
+}
+
+div#admmenutabcontents div {
+display:none;
+}
+
+div#admmenu .shadow {
+height:5px;
+line-height:5px;
+}

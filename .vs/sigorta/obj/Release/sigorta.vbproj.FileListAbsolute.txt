@@ -1,0 +1,17 @@
+C:\sigorta\sigorta\bin\sigorta.dll
+C:\sigorta\sigorta\bin\sigorta.pdb
+C:\sigorta\sigorta\bin\sigorta.xml
+C:\sigorta\sigorta\bin\Microsoft.Office.Interop.Excel.dll
+C:\sigorta\sigorta\bin\office.dll
+C:\sigorta\sigorta\bin\Microsoft.Vbe.Interop.dll
+C:\sigorta\sigorta\bin\Microsoft.Office.Interop.Excel.xml
+C:\sigorta\sigorta\bin\office.xml
+C:\sigorta\sigorta\obj\Release\sigorta.Resources.resources
+C:\sigorta\sigorta\obj\Release\sigorta.vbproj.GenerateResource.Cache
+C:\sigorta\sigorta\obj\Release\sigorta.dll
+C:\sigorta\sigorta\obj\Release\sigorta.xml
+C:\sigorta\sigorta\obj\Release\sigorta.pdb
+C:\sigorta\sigorta\bin\sigorta.dll.config
+C:\sigorta\sigorta\bin\stdole.dll
+C:\sigorta\sigorta\obj\Release\sigorta.vbproj.CoreCompileInputs.cache
+C:\sigorta\sigorta\obj\Release\sigorta.vbprojResolveAssemblyReference.cache

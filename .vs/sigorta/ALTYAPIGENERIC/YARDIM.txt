@@ -1,0 +1,6 @@
+﻿validation kodları
+
+s --> STRİNG
+e --> E MAIL
+d --> DATE
+i --> INTEGER

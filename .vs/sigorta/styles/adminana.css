@@ -1,0 +1,300 @@
+#anacontaineraracgirispopup
+{
+    float:left;
+    width:60%;
+     border: 1px solid #DDDDDD;
+}
+
+
+#single_image
+{
+ background: none repeat scroll 0 0 white;
+  
+    margin: 7px 44px 7px 0;
+    padding: 5px;
+}
+
+.renkkutucuk
+{
+    float:left;
+    display:block;
+    width:20px;
+    height:20px;
+    
+}
+
+
+#tabsbilgi
+{
+    width:800px;
+}
+
+body
+{
+    font-size:%62.5;
+}
+
+.sillink
+{
+    cursor:pointer;
+}
+.renk 
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:250px;
+}
+
+.buttonk
+{
+   font-size:9px;
+}
+
+
+.formfield
+{
+padding:10,0,10,0;
+height:20px;
+}
+
+
+.textboxcokkucuk
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:20px;
+}
+
+.textboxkucuk
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:100px;
+}
+
+.textboxorta
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:250px;
+}
+
+.computergenerated
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:70px;
+}
+
+.computergeneratedn
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:70px;
+}
+
+.textboxuzun
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:550px;
+}
+
+.textbox
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+}
+
+
+.textboxsaatdakika
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+ width:60px;
+}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 200px; }
+#sortable li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; height: 1.5em; cursor:move; width:450px; }
+
+
+#sortablegrup { list-style-type: none; margin: 0; padding: 0; width: 200px; }
+#sortablegrup li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; height: 1.5em; cursor:move; width:450px; }
+
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+
+#anacontainer
+{
+    float:left;
+     /*border: 1px solid #DDDDDD;*/
+}
+
+
+#anacontainerresim
+{
+    float:left;
+     border: 1px solid #DDDDDD;
+     width:600px;
+}
+
+#anacontainer2
+{
+    float:left;
+    width:90%;
+     /*border: 1px solid #DDDDDD;*/
+}
+
+#anacontainer3
+{
+    float:left;
+    width:70%;
+     /*border: 1px solid #DDDDDD;*/
+}
+
+#anacontainerbaslik
+{
+    float:left;
+    width:60%;
+}
+
+
+#sag
+{
+    padding-left:5px;
+    float:left;
+     border: 1px solid #DDDDDD;
+     margin-left:auto;
+     margin-right:auto;
+  
+    
+}
+
+
+#content
+{
+    width:100%;
+    border: 1px solid #DDDDDD;
+}
+
+#anacontainerkatalog
+{
+    float:left;
+    width:50%;
+    border: 1px solid #DDDDDD;
+     
+}
+
+#onizlecontainer
+{
+     margin-top:20px;
+    float:right;
+    width:40%;
+}
+
+#anacontainerfull
+{
+    width:100%;
+     border: 1px solid #DDDDDD;
+}
+
+#anacontaineruye
+
+{
+    width:80%;
+     border: 1px solid #DDDDDD;
+}
+
+
+#anacontainersabitler
+{
+    width:60%;
+    /*border: 1px solid #DDDDDD;*/
+}
+
+
+#tablesorterinput
+{
+ background: none repeat scroll 0 0 #FFFFFF;
+ border: 1px solid #AAAAAA;
+ padding: 4px 2px;
+}
+
+#dugmelermenu
+{
+    
+    display:block;
+    min-height:50px;
+    width:800px;
+    height:50px;
+}
+    
+#ustkontrolsag
+{
+    float:right;
+    padding-top:10px;
+    
+}
+
+#enustyazi
+{
+/*float:right;*/
+}
+
+#ustkontrolsol
+{
+   
+    margin-top:0px;
+    float:left;
+    padding-top:10px;
+
+}
+
+
+.lavel
+{
+   font: 1.0em "Trebuchet MS",Arial,Helvetica,sans-serif;
+   color: #666666;  
+}
+
+
+#overlay      
+{
+    position: fixed;     
+    top: 0;     
+    left: 0;     
+    width: 100%;    
+    height: 100%;     
+    background-color: #000;     
+    filter:alpha(opacity=50);    
+    -moz-opacity:0.5;   
+    -khtml-opacity: 0.5;    
+    opacity: 0.2;     
+    z-index: 10000; 
+} 
+
+
+.help
+{
+	display : block;
+	background-Color : #FEFCD5;
+	border : solid 1px #E7E3BE;
+	padding : 10px;
+
+}
+
+.helpinner
+{
+	font-size:14px;
+	font-family:Arial;
+
+}
+
